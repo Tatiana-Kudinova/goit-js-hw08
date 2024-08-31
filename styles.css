@@ -12,6 +12,7 @@
 }
 
 .gallery-image {
+  display: block;
   height: 200px;
   width: 360px;
   object-fit: cover;

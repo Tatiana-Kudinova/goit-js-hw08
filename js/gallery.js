@@ -91,9 +91,6 @@ function onClick(evt) {
     return;
   }
 
-  //let openOrinalImg = evt.target.dataset.source;
-  //  console.log(openOrinalImg);
-
   const instance = basicLightbox.create(
     `<img src="${evt.target.dataset.source}" width="1112" height="640"/>`
   );
